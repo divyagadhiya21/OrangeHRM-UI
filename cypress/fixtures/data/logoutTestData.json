@@ -1,0 +1,16 @@
+{
+  "logoutTests": [
+    {
+      "testName": "Logout from dashboard",
+      "shouldSucceed": true,
+      "expectedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      "expectedMessage": "Successfully logged out"
+    },
+    {
+      "testName": "Verify user is redirected to login page after logout",
+      "shouldSucceed": true,
+      "expectedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      "expectedTitle": "OrangeHRM"
+    }
+  ]
+}

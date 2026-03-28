@@ -1,0 +1,7 @@
+{
+  "dashboard": {
+    "userDropdown": ".oxd-userdropdown",
+    "userDropdownName": ".oxd-userdropdown-name",
+    "toastSuccess": ".oxd-toast-content.oxd-toast-content--success"
+  }
+}

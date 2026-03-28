@@ -1,0 +1,7 @@
+{
+  "claim": {
+    "claimLink": "a[href=\"/web/index.php/claim/viewClaimModule\"]",
+    "claimModule": "a[href=\"/web/index.php/claim/viewClaimModule\"]",
+    "submitButton": "button[type=\"submit\"]"
+  }
+}

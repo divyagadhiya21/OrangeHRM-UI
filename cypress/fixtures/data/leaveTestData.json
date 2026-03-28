@@ -1,0 +1,10 @@
+{
+  "leaveTests": [
+    {
+      "testName": "Verify Leave module is displayed",
+      "description": "Navigate to Leave module and verify it is accessible",
+      "testType": "verifyLeaveModule",
+      "expectedElement": "Personal Details"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "myinfo": {
+    "myinfoLink": "a[href=\"/web/index.php/pim/viewMyDetails\"]",
+    "personalDetailsLink": "a[href=\"/web/index.php/pim/contactDetails/empNumber/7\"]",
+    "personalDetailsText": "Personal Details"
+  }
+}

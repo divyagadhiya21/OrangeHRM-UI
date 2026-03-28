@@ -1,0 +1,9 @@
+{
+  "buzz": {
+    "buzzLink": "a[href=\"/web/index.php/buzz/viewBuzz\"]",
+    "newsfeedTextarea": "textarea",
+    "submitButton": "button[type=\"submit\"]",
+    "successMessage": ".oxd-toast-content.oxd-toast-content--success",
+    "buzzModule": "a[href=\"/web/index.php/buzz/viewBuzz\"]"
+  }
+}

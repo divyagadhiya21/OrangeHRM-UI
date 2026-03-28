@@ -1,0 +1,7 @@
+{
+  "leave": {
+    "leaveLink": "a[href=\"/web/index.php/leave/viewLeaveModule\"]",
+    "submitButton": "button[type=\"submit\"]",
+    "personalDetailsText": "Personal Details"
+  }
+}

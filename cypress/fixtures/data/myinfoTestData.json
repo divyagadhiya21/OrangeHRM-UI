@@ -1,0 +1,10 @@
+{
+  "myinfoTests": [
+    {
+      "testName": "Verify My Info module is displayed and accessible",
+      "description": "Navigate to My Info module and verify Personal Details link",
+      "testType": "verifyMyInfoModule",
+      "expectedElement": "Personal Details"
+    }
+  ]
+}

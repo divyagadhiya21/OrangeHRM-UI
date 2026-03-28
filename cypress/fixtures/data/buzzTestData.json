@@ -1,0 +1,11 @@
+{
+  "buzzTests": [
+    {
+      "testName": "Verify user able to post in newsfeed of Buzz Module",
+      "description": "Create a new post in buzz module",
+      "postContent": "Hey My first post, Whats on your mind",
+      "shouldSucceed": true,
+      "expectedMessage": "Successfully Saved"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "logout": {
+    "userDropdown": "[class=\"oxd-userdropdown\"]",
+    "userDropdownMenu": "[class=\"oxd-dropdown-menu\"]",
+    "logoutButton": "[class=\"oxd-userdropdown-tab\"]",
+    "logoutOption": "//a[normalize-space()='Logout']",
+    "logoutUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/logout",
+    "loginPageUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+  }
+}

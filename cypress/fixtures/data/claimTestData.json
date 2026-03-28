@@ -1,0 +1,9 @@
+{
+  "claimTests": [
+    {
+      "testName": "Verify Claim module is displayed",
+      "description": "Navigate to claim module and verify it is accessible",
+      "testType": "verifyClaimModule"
+    }
+  ]
+}

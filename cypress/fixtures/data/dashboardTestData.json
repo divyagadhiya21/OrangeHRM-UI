@@ -1,0 +1,20 @@
+{
+  "dashboardTests": [
+    {
+      "testName": "Verify hyperlinks are not broken on Dashboard Page",
+      "description": "Check all links on dashboard page",
+      "testType": "checkLinks"
+    },
+    {
+      "testName": "Verify Images are not broken on Dashboard Page",
+      "description": "Check all images on dashboard page",
+      "testType": "checkImages"
+    },
+    {
+      "testName": "Verify Screenshot taken by failed case at assertion on dashboard page",
+      "description": "Verify dashboard displays user info",
+      "testType": "verifyUserInfo",
+      "expectedName": "Admin User"
+    }
+  ]
+}
