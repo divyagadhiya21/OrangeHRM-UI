@@ -1,0 +1,63 @@
+{
+  "navigationItems": [
+    {
+      "name": "Admin",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"
+    },
+    {
+      "name": "PIM",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
+    },
+    {
+      "name": "Leave",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList"
+    },
+    {
+      "name": "Time",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet"
+    },
+    {
+      "name": "Recruitment",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates"
+    },
+    {
+      "name": "My Info",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7"
+    },
+    {
+      "name": "Performance",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview"
+    },
+    {
+      "name": "Dashboard",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+    },
+    {
+      "name": "Directory",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory"
+    },
+    {
+      "name": "Maintenance",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+      "requiresCancel": true
+    },
+    {
+      "name": "Claim",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim"
+    },
+    {
+      "name": "Buzz",
+      "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz"
+    }
+  ],
+  "searchTests": [
+    {
+      "searchTerm": "Admin",
+      "expectedResult": "Admin"
+    },
+    {
+      "searchTerm": "PIM",
+      "expectedResult": "PIM"
+    }
+  ]
+}

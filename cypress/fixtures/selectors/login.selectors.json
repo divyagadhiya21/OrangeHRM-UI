@@ -1,0 +1,14 @@
+{
+  "login": {
+    "pageUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "userName": "[name=\"username\"]",
+    "password": "[name=\"password\"]",
+    "loginButton": "[type=\"submit\"]",
+    "pageTitle": "OrangeHRM",
+    "landingUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+    "accountName": "[class=\"oxd-userdropdown-name\"]",
+    "errorIcon": "[class=\"oxd-icon bi-exclamation-circle oxd-alert-content-icon\"]",
+    "errorMessageElement": "[class=\"oxd-text oxd-text--p oxd-alert-content-text\"]",
+    "forgotPassword": "[class=\"oxd-text oxd-text--p orangehrm-login-forgot-header\"]"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "leftPane": {
+    "element": "[class=\"oxd-text oxd-text--span oxd-main-menu-item--name\"]",
+    "search": "[placeholder=\"Search\"]"
+  },
+  "maintenance": {
+    "cancel": "[class=\"oxd-button oxd-button--large oxd-button--ghost orangehrm-admin-access-button\"]"
+  }
+}

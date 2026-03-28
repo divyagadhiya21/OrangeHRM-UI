@@ -1,0 +1,42 @@
+{
+  "loginTests": [
+    {
+      "testName": "Valid Login",
+      "userName": "Admin",
+      "password": "admin123",
+      "shouldSucceed": true,
+      "expectedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+      "expectedAccountName": "manda user"
+    },
+    {
+      "testName": "Invalid Password",
+      "userName": "Admin",
+      "password": "wrongPassword",
+      "shouldSucceed": false,
+      "expectedError": "Invalid credentials",
+      "expectedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    },
+    {
+      "testName": "Invalid Username",
+      "userName": "InvalidUser",
+      "password": "admin123",
+      "shouldSucceed": false,
+      "expectedError": "Invalid credentials",
+      "expectedUrl": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    }
+  ],
+  "forgotPasswordTests": [
+    {
+      "testName": "Reset without username",
+      "userName": "",
+      "shouldSucceed": false,
+      "expectedError": "Required"
+    },
+    {
+      "testName": "Reset with valid username",
+      "userName": "Admin",
+      "shouldSucceed": true,
+      "expectedSuccess": "Reset Password link sent successfully"
+    }
+  ]
+}
